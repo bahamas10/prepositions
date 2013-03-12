@@ -1,0 +1,26 @@
+{
+  "name": "prepositions",
+  "description": "A JSON array of one-word, english prepositions",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "main": "./prepositions.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/prepositions.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo 'Passed!'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "prepositions",
+    "english",
+    "grammar"
+  ]
+}
