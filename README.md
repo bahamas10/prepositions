@@ -41,7 +41,7 @@ it to stdout, which then gets redirected into
 Installation
 ------------
 
-npm install prepositions
+    npm install prepositions
 
 License
 -------
